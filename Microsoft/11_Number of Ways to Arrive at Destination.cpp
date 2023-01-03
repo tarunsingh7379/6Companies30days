@@ -7,6 +7,8 @@ using namespace std;
 
 // use dijkstra algorithm with dp to count number of ways to reach a particular node
 
+// dp[node] -> number of ways to reach this node from node 0 with shortest path
+
 class Solution
 {
 public:
